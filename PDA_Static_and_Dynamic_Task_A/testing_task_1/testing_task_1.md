@@ -20,6 +20,7 @@ class CardGame
     end
   end
 # change the = to ==
+# change method name to snake case
 
 
   dif highest_card(card1 card2)

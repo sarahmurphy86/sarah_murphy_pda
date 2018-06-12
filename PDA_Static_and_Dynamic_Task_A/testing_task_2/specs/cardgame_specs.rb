@@ -20,13 +20,13 @@ class TestCardGame < Minitest::Test
     assert_equal(1, @card2.value())
   end
 
-  def test_checkforAce__true
-    result = @cardgame.checkforAce(@card2)
+  def test_check_for_Ace__true
+    result = @cardgame.check_for_Ace(@card2)
     assert_equal(true, result)
   end
 
-  def test_checkforAce__false
-   result = @cardgame.checkforAce(@card1)
+  def test_check_for_Ace__false
+   result = @cardgame.check_for_Ace(@card1)
     assert_equal(false, result)
   end
 

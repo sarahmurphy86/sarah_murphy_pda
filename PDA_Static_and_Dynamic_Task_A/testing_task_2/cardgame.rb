@@ -8,7 +8,7 @@ class CardGame
     @card2 = card2
   end
 
-  def checkforAce(card)
+  def check_for_Ace(card)
     if card.value == 1
       return true
     else
