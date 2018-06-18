@@ -1,12 +1,10 @@
+### Testing task 2 code:
+
+# Carry out dynamic testing on the code below.
+# Correct the errors below that you spotted in task 1.
+
 require_relative('card.rb')
 class CardGame
-
-  attr_reader :card1, :card2
-
-  def initialize(card1, card2)
-    @card1 = card1
-    @card2 = card2
-  end
 
   def check_for_Ace(card)
     if card.value == 1
@@ -24,7 +22,7 @@ class CardGame
     end
   end
 
-  def cards_total(cards)
+  def self.cards_total(cards)
     total = 0
     for card in cards
       total += card.value

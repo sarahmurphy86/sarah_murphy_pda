@@ -7,8 +7,8 @@ class TestCardGame < Minitest::Test
 
   def setup
     @card1= Card.new("hearts", 10)
-    @card2 = Card.new("jack", 1)
-    @cardgame = CardGame.new(@card1, @card2)
+    @card2 = Card.new("ace", 1)
+    @cardgame = CardGame.new()
     @cards = [@card1, @card2]
   end
 
@@ -35,8 +35,8 @@ class TestCardGame < Minitest::Test
     assert_equal("hearts", result)
   end
 
-  def test_cards_total
-    result = @cardgame.cards_total(@cards)
+  def test_cardgame_cards_total
+    result = CardGame.cards_total(@cards)
     assert_equal("You have a total of 11", result)
   end
 end

@@ -3,10 +3,6 @@
 # Carry out static testing on the code below.
 # Comment on any errors that you see below.
 ```ruby
-### Testing task 2 code:
-
-# Carry out dynamic testing on the code below.
-# Correct the errors below that you spotted in task 1.
 
 require_relative('card.rb')
 class CardGame
@@ -20,7 +16,7 @@ class CardGame
     end
   end
 # change the = to ==
-# change method name to snake case
+# change method name to snake_case
 
 
   dif highest_card(card1 card2)
@@ -45,8 +41,8 @@ def self.cards_total(cards)
     return "You have a total of" + total
   end
 end
-# Change the def self method to cards_total(cards)
-# Change total to equal zero i.e. needs a starting point to add to
+
+# Change total to equal zero i.e. needs a starting point/counter to add to
 # Change the +total to a string - interpolation
 # Add an extra end for the class
 ```
