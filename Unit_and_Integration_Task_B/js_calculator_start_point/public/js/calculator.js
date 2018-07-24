@@ -19,8 +19,16 @@ Calculator.prototype = {
     this.runningTotal = parseFloat(this.previousTotal) * parseFloat(number);
   },
 
+  // divide: function(number){
+  //   this.runningTotal = parseFloat(this.previousTotal) / parseFloat(number);
+  // },
+
   divide: function(number){
     this.runningTotal = parseFloat(this.previousTotal) / parseFloat(number);
+    if (this.runningTotal === Infinity){
+      this.runningTotal = 'Error'
+    }
+
   },
 
   numberClick: function(number) {

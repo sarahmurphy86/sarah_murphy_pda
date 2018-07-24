@@ -8,7 +8,7 @@ describe('calculator', function () {
 
 // calculator.add()
 	// add 1+4 and get 5
-  it('it should add the numbers one and four together', function(){
+  it('it should add the numbers one and four together and return five', function(){
     // calculator.numberClick(1);
     // calculator.operatorClick('+');
     // calculator.numberClick(4);
@@ -19,7 +19,7 @@ describe('calculator', function () {
 
 	// calculator.subtract()
   // subtract 7-4 and get 3
-  it('it should subtract the number four from seven', function(){
+  it('it should subtract the number four from seven and return three', function(){
     // calculator.numberClick(7);
     // calculator.operatorClick('-');
     // calculator.numberClick(4);
@@ -30,7 +30,7 @@ describe('calculator', function () {
 
   // calculator.multiply()
   // multiply 3x5 and get 15
-  it('it should multiply the numbers three and five', function(){
+  it('it should multiply the numbers three and five and return fifteen', function(){
     // calculator.numberClick(3);
     // calculator.operatorClick('*');
     // calculator.numberClick(5);
@@ -41,7 +41,7 @@ describe('calculator', function () {
 
   // calculator.divide()
   // divide 21/7 and get 3
-  it('it should divide 21 by seven', function(){
+  it('it should divide 21 by seven and return three', function(){
     // calculator.numberClick(2);
     // calculator.numberClick(1);
     // calculator.operatorClick('/');
